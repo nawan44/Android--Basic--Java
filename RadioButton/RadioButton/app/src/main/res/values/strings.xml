@@ -1,0 +1,13 @@
+<resources>
+    <string name="hello">Heloo World, MyAndroidAppActivity</string>
+    <string name="app_name">MyAndroidApp</string>
+    <string name="radioBuah">RadioGroup</string>
+    <string name="radio_mangga">Mangga</string>
+    <string name="radio_apel">Apel</string>
+    <string name="radio_jeruk">Jeruk</string>
+    <string name="et_nama1">buah1</string>
+    <string name="et_nama2">buah2</string>
+    <string name="et_nama3">buah3</string>
+    <string name="btn_button1">Gabung</string>
+    <string name="btn_button2">Pisah</string>
+</resources>
