@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dip"
+        android:gravity="center"
+        android:padding="10dip"
+        android:text="Click on checkbox" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+	    <CheckBox
+	        android:id="@+id/checkb"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:button="@xml/custom_checkbox"/>
+	    <TextView
+	        android:id="@+id/textview1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="14dip"
+	        android:gravity="center"
+	        android:padding="10dip"
+	        android:text="unchecked" />
+	</LinearLayout>
+	
+   
+</LinearLayout>
