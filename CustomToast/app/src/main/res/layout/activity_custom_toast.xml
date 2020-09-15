@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomToast" 
+    android:background="#890000">
+
+    <TextView 
+        android:paddingTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    <Button
+        android:id="@+id/Clickhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to see custom alert" 
+        />
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Here"
+       />
+
+</RelativeLayout>
